@@ -1,42 +1,44 @@
-[
-  {
-    "user": "gabrielcmg@gmail.com",
-    "date": "07/11/2018",
-    "nature": "HEALTH",
-    "value": 23.54,
-    "type": "CREDIT",
-    "installments": 2,
-    "createdAt": "1531275247",
-    "updatedAt": "1531275247"
-  },
-  {
-    "user": "gabrielcmg@gmail.com",
-    "date": "07/08/2018",
-    "nature": "HOME",
-    "value": 34.24,
-    "type": "CREDIT",
-    "installments": 3,
-    "createdAt": "1531275247",
-    "updatedAt": "1531275247"
-  },
+{
+  "itens": [
     {
-    "user": "gabriel.goncalves@enforcegroup.com.br",
-    "date": "07/18/2018",
-    "nature": "HEALTH",
-    "value": 454.44,
-    "type": "CREDIT",
-    "installments": 4,
-    "createdAt": "1531275610",
-    "updatedAt": "1531275610"
-  },
-  {
-    "user": "gabriel.goncalves@enforcegroup.com.br",
-    "date": "06/11/2018",
-    "nature": "HEALTH",
-    "value": 234.33,
-    "type": "DEBIT",
-    "installments": 1,
-    "createdAt": "1531275610",
-    "updatedAt": "1531275610"
-  }
-]
+      "user": "gabrielcmg@gmail.com",
+      "date": "07/11/2018",
+      "nature": "HEALTH",
+      "value": 23.54,
+      "type": "CREDIT",
+      "installments": 2,
+      "createdAt": "1531275247",
+      "updatedAt": "1531275247"
+    },
+    {
+      "user": "gabrielcmg@gmail.com",
+      "date": "07/08/2018",
+      "nature": "HOME",
+      "value": 34.24,
+      "type": "CREDIT",
+      "installments": 3,
+      "createdAt": "1531275247",
+      "updatedAt": "1531275247"
+    },
+    {
+      "user": "gabriel.goncalves@enforcegroup.com.br",
+      "date": "07/18/2018",
+      "nature": "HEALTH",
+      "value": 454.44,
+      "type": "CREDIT",
+      "installments": 4,
+      "createdAt": "1531275610",
+      "updatedAt": "1531275610"
+    },
+    {
+      "user": "gabriel.goncalves@enforcegroup.com.br",
+      "date": "06/11/2018",
+      "nature": "HEALTH",
+      "value": 234.33,
+      "type": "DEBIT",
+      "installments": 1,
+      "createdAt": "1531275610",
+      "updatedAt": "1531275610"
+    }
+  ]
+}
