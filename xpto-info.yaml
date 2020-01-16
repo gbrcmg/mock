@@ -1,7 +1,7 @@
 apiVersion: networking.istio.io/v1alpha3
 kind: VirtualService
 metadata:
-  name: desintegrador-info
+  name: xpto-info
 spec:
   hosts:
   - "*"
@@ -15,4 +15,4 @@ spec:
     - destination:
         port:
           number: 80
-        host: desintegrador-ui
+        host: xptopage
