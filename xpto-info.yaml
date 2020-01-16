@@ -11,6 +11,8 @@ spec:
   - match:
     - uri:
         prefix: /
+    - uri:
+        prefix: /login
     route:
     - destination:
         port:
