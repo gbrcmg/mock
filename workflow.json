@@ -1,0 +1,32 @@
+{
+  "has_next": false,
+  "has_prev": true,
+  "next_num": 3,
+  "page": 2,
+  "pages": 100,
+  "per_page": 50,
+  "prev_num": 2,
+  "total": 5000,
+  "items": [
+    [
+      {
+        "id_processo_workflow": 1,
+        "nm_acao": "ALTERACA_TAREFA_123",
+        "parametros": [
+          {
+            "nome": "fl_imovel_recebido_via_dacao",
+            "tipo": "textValue"
+          }
+        ],
+        "inputs": [
+          {
+            "parametro": "fl_imovel_recebido_via_dacao",
+            "pergunta": "Imóvel recebido via dação?",
+            "respostas": ["True", "False"],
+            "ordem": 1
+          }
+          ]
+      }
+    ]
+  ]
+}
