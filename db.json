@@ -1,7 +1,7 @@
 {
   "items": [
     
-      {
+    {
         "acao_processo": {
             "id": 13,
             "id_processo_workflow": 26,
@@ -24,14 +24,20 @@
             }
         },
         "created_by": "emanuelle.alves",
-        "id": 2,
+        "id": 1,
         "id_acao_processo": 13,
         "ordem": 1,
         "parametro": "fl_imovel_recebido_via_dacao",
-        "pergunta": "Esse imóvel foi recebido via dação?",
+        "pergunta": "teste sos",
         "respostas": [
-            "True",
-            "False"
+            {
+                "label": "Sim",
+                "valor": "True"
+            },
+            {
+                "label": "Não",
+                "valor": "False"
+            }
         ]
     },
     {
@@ -61,14 +67,40 @@
         "id_acao_processo": 13,
         "ordem": 2,
         "parametro": "fl_imovel_recebido_via_dacao",
-        "pergunta": "Esse tipo de tarefa contém quantos inputs?",
-        "respostas": [
-            "1",
-            "2",
-            "3",
-            "4"
-        ]
+        "pergunta": "teste sos 2",
+        "respostas": null
+    },
+    {
+        "acao_processo": {
+            "id": 13,
+            "id_processo_workflow": 26,
+            "nm_acao": "ALTERACAO_TAREFA_359",
+            "parametros": [
+                {
+                    "nome": "fl_imovel_recebido_via_dacao",
+                    "tipo": "textValue"
+                }
+            ],
+            "processo": {
+                "created_by": "emanuelle.alves",
+                "fl_ativo": true,
+                "fl_existe_workflow": true,
+                "id": 26,
+                "id_processo_workflow": "UHJvY2VzczoxMTE=",
+                "nm_processo": "FLUXO_TOMBAMENTO",
+                "parametros": null,
+                "tx_descricao": "Fluxo de tombamento NPL"
+            }
+        },
+        "created_by": "emanuelle.alves",
+        "id": 4,
+        "id_acao_processo": 13,
+        "ordem": 4,
+        "parametro": "fl_imovel_recebido_via_dacao",
+        "pergunta": "teste sos null",
+        "respostas": null
     }
+
     ]
   
 }
